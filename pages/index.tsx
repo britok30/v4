@@ -3,6 +3,7 @@ import Head from "next/head";
 import Hero from "../components/Hero";
 import axios, { AxiosResponse } from "axios";
 import { DownloadPhoto, Random, Topics } from "../types";
+import { About } from "../components/About";
 
 interface HomeProps {
   randomPhotoData: Random;
@@ -33,8 +34,8 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
           blurHash={blurHash}
         />
         <div className="mx-auto">
-          {/* <About />
-          <Projects />
+          <About />
+          {/* <Projects />
           <Skills />
           <Connect />
           <Footer /> */}

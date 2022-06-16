@@ -24,7 +24,7 @@ export interface VeryBasic extends Entity {
 
 export interface Basic extends VeryBasic {
   alt_description: Nullable<string>;
-  blur_hash: Nullable<string>;
+  blur_hash: string;
   color: Nullable<string>;
   description: Nullable<string>;
   height: number;
@@ -93,4 +93,13 @@ export interface User extends Entity {
   twitter_username: Nullable<string>;
   updated_at: string;
   username: string;
+}
+
+// Custom Types
+
+export interface Topics {
+  nature: string;
+  architecture: string;
+  wallpapers: string;
+  experimental: string;
 }

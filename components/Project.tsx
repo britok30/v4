@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from "next/image";
+import Image  from "next/image";
 import React from "react";
 import { GitHub, Share } from "react-feather";
 
@@ -22,23 +22,15 @@ export const Project = ({
   return (
     <div>
       <div className="flex justify-center items-center flex-col md:flex-row md:items-start mb-12">
-        <div className="w-72 relative">
-          <Image
-            className="rounded-lg"
-            src={imgSrc}
-            alt={`project-${title}-img`}
-            objectFit="contain"
-            width={288}
-            height={180}
-            priority={true}
-          />
-          {/* <img
-            className="object-cover rounded-md opacity-60"
-            src={imgSrc}
-            alt="project-img"
-            loading="lazy"
-          /> */}
-        </div>
+        <Image
+          className="w-72 rounded-lg"
+          src={imgSrc}
+          alt={`project-${title}-img`}
+          layout="fixed"
+          objectFit="cover"
+          width={288}
+          height={180}
+        />
 
         <div className="flex justify-between items-start flex-col w-64 mt-10 md:ml-10 md:mt-0 antialiased">
           <h2 className="text-2xl text-white mb-2 ">{title}</h2>

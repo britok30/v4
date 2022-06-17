@@ -29,7 +29,7 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
           name="description"
           content="Kelvin Brito is a front end software engineer specializing in building & designing exceptional, high-quality websites and applications."
         />
-        <title>Kelvin Brito</title>
+        <title>Kelvin Brito &#x2022; Frontend Engineer</title>
       </Head>
 
       <div>

@@ -5,7 +5,7 @@ export const Connect = () => {
     <>
       <h1 className="heading">Get in touch</h1>
 
-      <ul className="flex list-none text-gray-400 justify-center items-center flex-col md:flex-row md:space-x-3  mt-3 font-light">
+      <ul className="flex list-none text-gray-400 justify-center items-center flex-col space-y-4 md:flex-row md:space-x-3 md:space-y-0  mt-3 font-light">
         <li>
           <a
             aria-label="Github"

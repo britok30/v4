@@ -24,7 +24,7 @@ export const Skills = () => {
     <div>
       <h1 className="heading">Skills</h1>
 
-      <div className="mt-3 flex flex-col items-center justify-center md:flex-row md:items-center md:space-x-3">
+      <div className="mt-3 flex flex-col items-center justify-center space-y-2 md:flex-row md:items-center md:space-x-3 md:space-y-0">
         {skills.map((skill, index) => (
           <span
             key={index}

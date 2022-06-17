@@ -4,7 +4,7 @@ This is my fourth iteration of my website. I wanted to leverage Next.js and serv
 
 <img width="1432" alt="Screen Shot 2022-06-17 at 2 11 27 AM" src="https://user-images.githubusercontent.com/52144063/174236364-eee6fe7b-95e8-4f8e-a64b-f7b46a189a80.png">
 
-## Technology stack
+## Tech stack
 
 - **Styling:** [Tailwind](https://tailwindcss.com/)
 - **Back-end:** [Next.js](https://nextjs.org/)

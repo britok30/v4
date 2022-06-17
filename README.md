@@ -9,7 +9,7 @@ This is my fourth iteration of my website. I wanted to leverage Next.js and serv
 - **Styling:** [Tailwind]([https://stitches.dev/](https://tailwindcss.com/))
 - **Back-end:** [Next.js](https://nextjs.org/)
 - **Front-end:** [React](https://reactjs.org/)
-- **Front-end:** [TypeScript]([https://reactjs.org/](https://www.typescriptlang.org/))
+- **Front-end:** [TypeScript](https://www.typescriptlang.org/)
 - **Deployment:** [Vercel](https://vercel.com/)
 
 ## Running locally
@@ -17,7 +17,7 @@ This is my fourth iteration of my website. I wanted to leverage Next.js and serv
 1. Clone this repo:
 
 ```sh
-$ git clone https://github.com/britok30/v4.git
+$ git clone git@github.com:britok30/v4.git
 ```
 
 2. Then go to the project's folder:

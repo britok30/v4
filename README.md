@@ -1,3 +1,8 @@
+# v4
+
+This is my fourth iteration of my website. I wanted to leverage Next.js and server side rendering for the Unsplash API. I updated it to use Next.js, React, Tailwind for styling, and TypeScript for type saefty. Below are the instructions to set it up locally. Hope you enjoy!
+
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).

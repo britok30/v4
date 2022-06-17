@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 export const About = () => {
   return (
@@ -13,18 +14,23 @@ export const About = () => {
           this life-long journey of self-learning and mastering my craft, I hope
           to be shaped by the challenges and experiences coming my way.
         </p>
-
         <p className="paragraph mb-5">
           I thrive at the intersection of tech & art/design. I'm passionate in
           combining my technical knowledge and artistic creativity to build
           beautiful UIs, and continue expanding my knowledge in everything front
           end.
         </p>
-
         <p className="paragraph mb-5">
           In my free time, I enjoy photography, reading books, bike trails,
           traveling, hiking, and painting.
         </p>
+        {/* TODO: Add photography */}
+        {/* <p className="paragraph">
+          Speaking of photography, here are some of my{" "}
+          <Link href="/photos">
+            <span className="cursor-pointer underline">shots</span> 
+          </Link>
+        </p> */}
       </div>
     </div>
   );

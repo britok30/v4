@@ -3,7 +3,7 @@ import { Project } from "./Project";
 
 export const Projects = () => {
   return (
-    <div>
+    <main>
       <h1 className="heading">Some things I've built</h1>
 
       <Project
@@ -79,6 +79,6 @@ export const Projects = () => {
         imgSrc="/apple-react.png"
         stack="React Hooks, Firebase, SCSS"
       />
-    </div>
+    </main>
   );
 };

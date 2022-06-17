@@ -20,6 +20,8 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
       <Head>
         <meta charSet="utf-8" />
         <link rel="icon" href="/favicon.ico" />
+        <meta content="Kelvin Brito" name="author" />
+        <meta property="og:type" content="website" />
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#000000" />

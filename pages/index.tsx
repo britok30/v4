@@ -1,9 +1,9 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import Hero from "../components/Hero";
 import axios, { AxiosResponse } from "axios";
 import { DownloadPhoto, Random, Topics } from "../types";
 import { About } from "../components/About";
+import { Projects } from "../components/Projects";
 
 interface HomeProps {
   randomPhotoData: Random;
@@ -35,8 +35,8 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
         />
         <div className="mx-auto">
           <About />
-          {/* <Projects />
-          <Skills />
+          <Projects />
+          {/* <Skills />
           <Connect />
           <Footer /> */}
         </div>

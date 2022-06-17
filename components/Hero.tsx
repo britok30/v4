@@ -29,6 +29,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
   return (
     <div className="relative h-screen max-h-screen min-w-full">
       <a
+        aria-label="Photo-Link"
         href={`${BASE_URL}/photos/${random?.id}`}
         target="_blank"
         rel="noreferrer"
@@ -69,6 +70,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
           <span>
             Photo by{" "}
             <a
+              aria-label="Photo By"
               href={`${BASE_URL}/${random?.user.username}`}
               target="_blank"
               rel="noreferrer"
@@ -76,7 +78,12 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
               {random?.user.name}
             </a>{" "}
             on{" "}
-            <a href={`${BASE_URL}`} target="_blank" rel="noreferrer">
+            <a
+              aria-label="Unsplash"
+              href={`${BASE_URL}`}
+              target="_blank"
+              rel="noreferrer"
+            >
               Unsplash
             </a>
           </span>
@@ -85,6 +92,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
       <div className="absolute bottom-3 left-3 opacity-70 text-white">
         {download && (
           <a
+            aria-label="Download"
             href={download?.url}
             download={random?.user.name}
             target="_blank"

@@ -4,6 +4,9 @@ import axios, { AxiosResponse } from "axios";
 import { DownloadPhoto, Random, Topics } from "../types";
 import { About } from "../components/About";
 import { Projects } from "../components/Projects";
+import { Skills } from "../components/Skills";
+import { Connect } from "../components/Connect";
+import { Footer } from "../components/Footer";
 
 interface HomeProps {
   randomPhotoData: Random;
@@ -18,7 +21,7 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
         <meta charSet="utf-8" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#000000" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#000000" />
         <meta
           name="description"
@@ -36,9 +39,9 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
         <div className="mx-auto">
           <About />
           <Projects />
-          {/* <Skills />
+          <Skills />
           <Connect />
-          <Footer /> */}
+          <Footer />
         </div>
       </div>
     </div>

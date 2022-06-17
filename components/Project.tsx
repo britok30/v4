@@ -1,4 +1,4 @@
-import { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 import { GitHub, Share } from "react-feather";
 
@@ -22,13 +22,22 @@ export const Project = ({
   return (
     <div>
       <div className="flex justify-center items-center flex-col md:flex-row md:items-start mb-12">
-        <div className="w-72">
-          <img
+        <div className="w-72 relative">
+          <Image
+            className="rounded-lg"
+            src={imgSrc}
+            alt={`project-${title}-img`}
+            objectFit="contain"
+            width={288}
+            height={180}
+            priority={true}
+          />
+          {/* <img
             className="object-cover rounded-md opacity-60"
             src={imgSrc}
             alt="project-img"
             loading="lazy"
-          />
+          /> */}
         </div>
 
         <div className="flex justify-between items-start flex-col w-64 mt-10 md:ml-10 md:mt-0 antialiased">
@@ -36,10 +45,21 @@ export const Project = ({
           <p className="text-gray-400 mb-2 text-sm">{description}</p>
           <p className="text-gray-200 mb-2 text-sm font-bold">{stack}</p>
           <div className="flex justify-center items-center">
-            <a className="mr-2" href={github} target="_blank" rel="noreferrer">
+            <a
+              aria-label="Source"
+              className="mr-2"
+              href={github}
+              target="_blank"
+              rel="noreferrer"
+            >
               <GitHub color="#fff" size={22} />
             </a>
-            <a href={demo} target="_blank" rel="noreferrer">
+            <a
+              aria-label="Link-Demo"
+              href={demo}
+              target="_blank"
+              rel="noreferrer"
+            >
               <Share color="#fff" size={22} />
             </a>
           </div>

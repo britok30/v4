@@ -4,9 +4,7 @@ import { Project } from "./Project";
 export const Projects = () => {
   return (
     <div>
-      <h1 className="text-gray-300 text-4xl my-10 antialiased text-center">
-        Some things I've built
-      </h1>
+      <h1 className="heading">Some things I've built</h1>
 
       <Project
         title="Spotify Next v2"

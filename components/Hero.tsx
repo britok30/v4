@@ -24,7 +24,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
     const src = img.src;
 
     setBlurUrl(src);
-  }, []);
+  }, [blurHash]);
 
   return (
     <div className="relative h-screen max-h-screen min-w-full">

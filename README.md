@@ -6,10 +6,9 @@ This is my fourth iteration of my website. I wanted to leverage Next.js and serv
 
 ## Technology stack
 
-- **Styling:** [Tailwind]([https://stitches.dev/](https://tailwindcss.com/))
+- **Styling:** [Tailwind](https://tailwindcss.com/)
 - **Back-end:** [Next.js](https://nextjs.org/)
-- **Front-end:** [React](https://reactjs.org/)
-- **Front-end:** [TypeScript](https://www.typescriptlang.org/)
+- **Front-end:** [React](https://reactjs.org/) [TypeScript](https://www.typescriptlang.org/)
 - **Deployment:** [Vercel](https://vercel.com/)
 
 ## Running locally

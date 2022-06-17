@@ -4,7 +4,7 @@ import { Project } from "./Project";
 export const Projects = () => {
   return (
     <main>
-      <h1 className="heading">Some things I've built</h1>
+      <h1 className="heading">Some things Ive built</h1>
 
       <Project
         title="Spotify Next v2"

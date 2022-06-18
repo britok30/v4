@@ -11,6 +11,12 @@ This is my fourth iteration of my website. I wanted to leverage Next.js and serv
 - **Front-end:** [React](https://reactjs.org/) [TypeScript](https://www.typescriptlang.org/)
 - **Deployment:** [Vercel](https://vercel.com/)
 
+## Performance
+
+For this version I wanted to improve performance, SEO and have an added focus on accessibility. I leveraged Next.js' server-side rendering to help out when using the Unsplash API. I added aria-labels where needed to improve accessibility. I made sure to add the correct meta tags for SEO improvements. V3 typically had a performance score of 83-87. The biggest reason why was how I was manually handling the image rendering for the hero component on the client-side. But I'm very pleased with the results. 
+
+![Screen Shot 2022-06-17 at 12 44 22 PM](https://user-images.githubusercontent.com/52144063/174341395-3e307d3a-c321-4e2d-ac64-7f4eee5a39fe.png)
+
 ## Running locally
 
 1. Clone this repo:

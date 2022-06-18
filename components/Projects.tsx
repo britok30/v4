@@ -25,14 +25,12 @@ export const Projects = () => {
       />
 
       <Project
-        title="Playspace"
-        description="A web app for visualizing video game data. View your
-                            favorite video games, ratings, release dates, etc.
-                            Grabs information from the Rawg Api."
-        github="https://github.com/britok30/Play-Space"
-        demo="https://playspace.netlify.com"
+        title="Playspace v2"
+        description="A web app for visualizing video game data"
+        github="https://github.com/britok30/playspace-v2"
+        demo="https://playspace-v2.vercel.app/"
         imgSrc="/playspace.png"
-        stack="React Hooks, Bootstrap, RAWG API"
+        stack="Next.js, React, TypeScript, Tailwind"
       />
 
       <Project

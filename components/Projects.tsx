@@ -2,6 +2,7 @@ import React from "react";
 import { Project } from "./Project";
 
 export const Projects = () => {
+  const BASE_GITUB: string = "https://github.com/britok30";
   return (
     <main>
       <h1 className="heading">Some things Ive built</h1>
@@ -9,7 +10,7 @@ export const Projects = () => {
       <Project
         title="Spotify Next v2"
         description="Spotify app built with Next.js and Spotify API"
-        github="https://github.com/britok30/spotify-next"
+        github={`${BASE_GITUB}/spotify-next`}
         demo="/spotifyDemo.mp4"
         imgSrc="/spotify.png"
         stack="Next.js, React, TypeScript, Tailwind, Recoil, Spotify API"
@@ -18,7 +19,7 @@ export const Projects = () => {
       <Project
         title="Njs"
         description="Netflix app built with Next.js and TMDB API"
-        github="https://github.com/britok30/njs"
+        github={`${BASE_GITUB}/britok30/njs`}
         demo="https://njs-five.vercel.app/"
         imgSrc="/njs.png"
         stack="Next.js, React, TypeScript, Tailwind, Recoil, TMDB API"
@@ -27,7 +28,7 @@ export const Projects = () => {
       <Project
         title="Playspace v2"
         description="A web app for visualizing video game data"
-        github="https://github.com/britok30/playspace-v2"
+        github={`${BASE_GITUB}/playspace-v2`}
         demo="https://playspace-v2.vercel.app/"
         imgSrc="/playspace.png"
         stack="Next.js, React, TypeScript, Tailwind"
@@ -36,7 +37,7 @@ export const Projects = () => {
       <Project
         title="Spotify Connect"
         description="Spotify profile with personalized data"
-        github="https://github.com/britok30/spotify-connect"
+        github={`${BASE_GITUB}/spotify-connect`}
         demo="https://spotify-connect-v1.herokuapp.com/"
         imgSrc="/spotify-connect.png"
         stack="TypeScript, React, Tailwind, Spotify API"
@@ -44,8 +45,8 @@ export const Projects = () => {
 
       <Project
         title="Apple News.js"
-        description="Web app that features up-to-date news. Users can see top news and news based on certain categories. User can also search any topic and find news on it."
-        github="https://github.com/britok30/applenews"
+        description="Web app that features up-to-date news."
+        github={`${BASE_GITUB}/applenews`}
         demo="/AppleNewsDemo.mp4"
         imgSrc="/apple.png"
         stack="React, Node, Express, Bootstrap, News API"
@@ -54,7 +55,7 @@ export const Projects = () => {
       <Project
         title="Horizon"
         description="Search engine web app featuring Google Search API"
-        github="https://github.com/britok30/horizon-search"
+        github={`${BASE_GITUB}/horizon-search`}
         demo="https://horizonsearch.netlify.app/"
         imgSrc="/horizon.png"
         stack="React, Google Search API, Tailwind"
@@ -63,7 +64,7 @@ export const Projects = () => {
       <Project
         title="Vizcaya Design Studio"
         description="Design studio website exploring design concept"
-        github="https://github.com/britok30/Vizcaya2"
+        github={`${BASE_GITUB}/Vizcaya2`}
         demo="https://vizcaya.netlify.app"
         imgSrc="/vizcaya.png"
         stack="HTML, CSS, JavaScript"
@@ -72,7 +73,7 @@ export const Projects = () => {
       <Project
         title="Apple React"
         description="Apple product page featuring Firebase authentication"
-        github="https://github.com/britok30/react-apple-landing"
+        github={`${BASE_GITUB}/react-apple-landing`}
         demo="/react-apple.mp4"
         imgSrc="/apple-react.png"
         stack="React Hooks, Firebase, SCSS"

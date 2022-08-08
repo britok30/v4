@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 export const About = () => {
   return (
@@ -9,16 +8,16 @@ export const About = () => {
 
       <div className="w-[17rem] md:w-96 mx-auto">
         <p className="paragraph my-5">
-          Im a front end software engineer specializing in building & designing
+          I'm a front-end software engineer specializing in building & designing
           exceptional, high-quality websites and applications. As I continue
           this life-long journey of self-learning and mastering my craft, I hope
           to be shaped by the challenges and experiences coming my way.
         </p>
         <p className="paragraph mb-5">
-          I thrive at the intersection of tech & art/design. Im passionate in
+          I thrive at the intersection of tech & art/design. I'm passionate in
           combining my technical knowledge and artistic creativity to build
-          beautiful UIs, and continue expanding my knowledge in everything front
-          end.
+          beautiful UIs, and continue expanding my knowledge in all things
+          front-end.
         </p>
         <p className="paragraph mb-5">
           In my free time, I enjoy photography, reading books, bike trails,

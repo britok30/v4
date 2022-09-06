@@ -28,7 +28,6 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
         <meta content="Kelvin Brito" name="author" />
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="" />
         <meta name="description" content={pageDesc} key="desc" />
 
         <meta property="og:title" content={pageTitle} />

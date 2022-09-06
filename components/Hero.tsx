@@ -58,7 +58,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
         </h1>
 
         <p className="text-lg font-extralight text-center mb-8 text-white antialiased">
-          Frontend Engineer
+          Front-end Engineer
         </p>
 
         <div className="mt-8">

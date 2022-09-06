@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://britojs.com
+
+# Sitemaps
+Sitemap: https://britojs.com/sitemap.xml

@@ -4,13 +4,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sitemap": "next-sitemap"
   },
   "dependencies": {
     "array-to-image": "^1.0.0",
     "axios": "^0.27.2",
     "blurhash": "^1.1.5",
     "next": "latest",
+    "next-sitemap": "^3.1.21",
     "react": "18.1.0",
     "react-blurhash": "^0.1.3",
     "react-dom": "18.1.0",

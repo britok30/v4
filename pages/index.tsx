@@ -15,21 +15,41 @@ interface HomeProps {
 }
 
 const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
+  const pageTitle = "Kelvin Brito &#x2022; Frontend Engineer";
+  const pageDesc =
+    "Kelvin Brito is a front end software engineer specializing in building & designing exceptional, high-quality websites and applications.";
   return (
     <div className="bg-black min-h-screen flex justify-center flex-col">
       <Head>
-        <meta charSet="utf-8" />
+        <title>{pageTitle}</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta charSet="utf-8" />
         <meta content="Kelvin Brito" name="author" />
-        <meta property="og:type" content="website" />
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#000000" />
+
+        <meta name="description" content={pageDesc} />
+
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDesc} key="ogdesc" />
+        <meta property="og:type" content="website" />
         <meta
-          name="description"
-          content="Kelvin Brito is a front end software engineer specializing in building & designing exceptional, high-quality websites and applications."
+          property="og:url"
+          content="https://www.britojs.com/"
+          key="ogurl"
         />
-        <title>Kelvin Brito &#x2022; Frontend Engineer</title>
+        <meta
+          property="og:image"
+          content="https://www.britojs.com/portfolio.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDesc} />
+        <meta
+          name="twitter:image"
+          content="https://www.britojs.com/portfolio.png"
+        />
       </Head>
 
       <div>

@@ -78,6 +78,15 @@ export const Projects = () => {
         imgSrc="/apple-react.png"
         stack="React Hooks, Firebase, SCSS"
       />
+
+      <Project
+        title="Color Picker"
+        description="Color picker with useful color conversions"
+        github={`${BASE_GITUB}/color-picker`}
+        demo="https://colorhuepicker.com/"
+        imgSrc="/color.png"
+        stack="Next.js, React, TypeScript, Tailwind"
+      />
     </main>
   );
 };

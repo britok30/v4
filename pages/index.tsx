@@ -15,7 +15,7 @@ interface HomeProps {
 }
 
 const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
-  const pageTitle = "Kelvin Brito &#x2022; Frontend Engineer";
+  const pageTitle = "Kelvin Brito - Front-end Software Engineer";
   const pageDesc =
     "Kelvin Brito is a front end software engineer specializing in building & designing exceptional, high-quality websites and applications.";
   return (

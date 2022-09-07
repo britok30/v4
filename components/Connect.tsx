@@ -2,55 +2,50 @@ import React from "react";
 
 export const Connect = () => {
   return (
-    <>
-      <h1 className="heading">Get in touch</h1>
-
+    <div>
+      <h2 className="heading">Get in touch</h2>
       <ul className="flex list-none text-gray-400 justify-center items-center flex-col space-y-4 md:flex-row md:space-x-3 md:space-y-0  mt-3 font-light">
-        <li>
-          <a
-            aria-label="Github"
-            className="connectButton"
-            href="https://github.com/britok30"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>Github</span>
-          </a>
-        </li>
-        <li>
-          <a
-            aria-label="Gmail"
-            className="connectButton"
-            href="mailto:britok30@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>Gmail</span>
-          </a>
-        </li>
-        <li>
-          <a
-            aria-label="Linkedin"
-            className="connectButton"
-            href="https://www.linkedin.com/in/kelvin-brito/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>Linkedin</span>
-          </a>
-        </li>
-        <li>
-          <a
-            aria-label="Resume"
-            className="connectButton"
-            href="/resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>Resume</span>
-          </a>
-        </li>
+        <ListItem
+          ariaLabel="Github"
+          href="https://github.com/britok30"
+          text="Github"
+        />
+        <ListItem
+          ariaLabel="Gmail"
+          href="mailto:britok30@gmail.com"
+          text="Gmail"
+        />
+        <ListItem
+          ariaLabel="Linkedin"
+          href="https://www.linkedin.com/in/kelvin-brito/"
+          text="Linkedin"
+        />
+        <ListItem ariaLabel="Resume" href="/resume.pdf" text="Resume" />
       </ul>
-    </>
+    </div>
+  );
+};
+
+const ListItem = ({
+  ariaLabel,
+  href,
+  text,
+}: {
+  ariaLabel: string;
+  href: string;
+  text: string;
+}) => {
+  return (
+    <li>
+      <a
+        aria-label={ariaLabel}
+        className="connectButton"
+        href={href}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span>{text}</span>
+      </a>
+    </li>
   );
 };

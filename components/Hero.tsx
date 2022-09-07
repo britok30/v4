@@ -27,7 +27,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
   }, [blurHash]);
 
   return (
-    <div className="relative h-screen max-h-screen min-w-full">
+    <div className="relative text-white antialiased h-screen max-h-screen min-w-full">
       <a
         aria-label="Photo-Link"
         href={`${BASE_URL}/photos/${random?.id}`}
@@ -53,11 +53,11 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
           transform: "translate(-50%,-50%)",
         }}
       >
-        <h1 className="text-3xl lg:text-6xl font-light text-center mb-3 text-white antialiased">
+        <h1 className="text-5xl lg:text-8xl tracking-wide font-light text-center mb-3">
           Brito
         </h1>
 
-        <p className="text-lg font-extralight text-center mb-8 text-white antialiased">
+        <p className="text-lg font-extralight text-center mb-8">
           Front-end Engineer
         </p>
 
@@ -65,7 +65,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
           <ArrowDown className="animate-bounce" color="#fff" size={22} />
         </div>
       </div>
-      <div className="absolute text-white text-sm right-3 bottom-3 opacity-50">
+      <div className="absolute text-sm right-3 bottom-3 opacity-50">
         {random && (
           <span>
             Photo by{" "}
@@ -89,7 +89,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
           </span>
         )}
       </div>
-      <div className="absolute bottom-3 left-3 opacity-70 text-white">
+      <div className="absolute bottom-3 left-3 opacity-70">
         {download && (
           <a
             aria-label="Download"

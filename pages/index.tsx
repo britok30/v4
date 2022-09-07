@@ -4,6 +4,7 @@ import { DownloadPhoto, Random, Topics } from "../types";
 import { About } from "../components/About";
 import { Projects } from "../components/Projects";
 import { Skills } from "../components/Skills";
+import { Explore } from "../components/Explore";
 import { Connect } from "../components/Connect";
 import { Footer } from "../components/Footer";
 import { Seo } from "../components/Seo";
@@ -27,6 +28,7 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
         <div className="mx-auto">
           <About />
           <Projects />
+          <Explore />
           <Skills />
           <Connect />
           <Footer />

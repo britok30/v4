@@ -17,7 +17,10 @@ export const Seo = () => {
       <meta name="theme-color" content="#000000" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content={pageDesc} key="desc" />
-
+      <meta
+        name="keywords"
+        content="kelvin brito, britojs, personal website, front-end, engineer, portfolio, software, react, typescript, javascript"
+      />
       <meta property="og:title" content={pageTitle} />
       <meta property="og:description" content={pageDesc} key="ogdesc" />
       <meta property="og:type" content="website" />

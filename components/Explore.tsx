@@ -15,9 +15,7 @@ export const Explore = () => {
   ];
   return (
     <div className="flex flex-col items-center">
-      <h2 className="heading">
-        Exploring the unknown
-      </h2>
+      <h2 className="heading">Exploring the unknown</h2>
 
       <div className="w-[17rem] md:w-96">
         <p className="paragraph mb-5">
@@ -25,9 +23,9 @@ export const Explore = () => {
           it comes to the connections of natural langauge and code. I believe
           Open AI&apos;s initiatives with creating realistic images and art with
           natural language is the coolest thing I&apos;ve dabbled with lately.
-          Learn more{" "}
+          Learn more about{" "}
           <a className="underline" href="https://openai.com/dall-e-2/">
-            here
+            Dall-e 2
           </a>
           .
         </p>

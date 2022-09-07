@@ -19,7 +19,7 @@ export const Explore = () => {
 
       <div className="w-[17rem] md:w-96">
         <a
-          className="underline paragraph mb-5"
+          className="block underline paragraph mb-5"
           href="https://swift-bard-cc4.notion.site/Learning-Path-f9adf3405d6349dc925f4665091dc5b6"
           target="_blank"
           rel="noreferrer"

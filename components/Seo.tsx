@@ -43,7 +43,6 @@ export const Seo = () => {
         name="twitter:image"
         content="https://www.britojs.com/portfolio.png"
       />
-      <meta name="robots" content="index,follow" />
       <link rel="canonical" key="canonical" href={canonicalUrl} />
     </Head>
   );

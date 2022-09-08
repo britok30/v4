@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://britojs.com
+Host: https://www.britojs.com
 
 # Sitemaps
-Sitemap: https://britojs.com/sitemap.xml
+Sitemap: https://www.britojs.com/sitemap.xml

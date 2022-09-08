@@ -4,7 +4,7 @@ export const About = () => {
     <div className="flex flex-col justify-center items-center">
       <h2 className="heading">Hey there, I&apos;m Kelvin Brito! 👨🏽‍💻</h2>
 
-      <div className="w-[17rem] md:w-96">
+      <div className="w-[18rem] md:w-[30rem]">
         <p className="paragraph mb-5">
           I&apos;m a front-end software engineer specializing in building &
           designing exceptional, high-quality websites and applications. As I

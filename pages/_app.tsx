@@ -5,7 +5,7 @@ import Script from 'next/script';
 function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
-            <Script
+            {/* <Script
                 async
                 src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
             />
@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           gtag('config', ${process.env.NEXT_PUBLIC_GA_ID});
         `,
                 }}
-            />
+            /> */}
             <Component {...pageProps} />
         </>
     );

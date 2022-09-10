@@ -19,7 +19,7 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
   return (
     <div className="bg-black min-h-screen flex justify-center flex-col">
       <Seo />
-      <div>
+      <>
         <Hero
           random={randomPhotoData}
           download={downloadData}
@@ -33,7 +33,7 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
           <Connect />
           <Footer />
         </main>
-      </div>
+      </>
     </div>
   );
 };

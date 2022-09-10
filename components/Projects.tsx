@@ -4,7 +4,7 @@ import { Project } from "./Project";
 export const Projects = () => {
   const BASE_GITUB: string = "https://github.com/britok30";
   return (
-    <main>
+    <>
       <h2 className="heading">Some things I&apos;ve built</h2>
       <Project
         title="Spotify Next v2"
@@ -86,6 +86,6 @@ export const Projects = () => {
         imgSrc="/color.png"
         stack="Next.js, React, TypeScript, Tailwind"
       />
-    </main>
+    </>
   );
 };

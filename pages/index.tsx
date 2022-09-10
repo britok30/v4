@@ -25,14 +25,14 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
           download={downloadData}
           blurHash={blurHash}
         />
-        <div className="mx-auto">
+        <main className="mx-auto">
           <About />
           <Projects />
           <Explore />
           <Skills />
           <Connect />
           <Footer />
-        </div>
+        </main>
       </div>
     </div>
   );

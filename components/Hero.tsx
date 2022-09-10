@@ -27,7 +27,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
   }, [blurHash]);
 
   return (
-    <div className="relative text-white antialiased h-screen max-h-screen min-w-full">
+    <header className="relative text-white antialiased h-screen max-h-screen min-w-full">
       <a
         aria-label="Photo-Link"
         href={`${BASE_URL}/photos/${random?.id}`}
@@ -102,7 +102,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
           </a>
         )}
       </div>
-    </div>
+    </header>
   );
 };
 

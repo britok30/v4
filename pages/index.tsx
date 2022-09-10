@@ -20,13 +20,12 @@ const Home = ({ randomPhotoData, downloadData, blurHash }: HomeProps) => {
     <div className="bg-black min-h-screen flex justify-center flex-col">
       <Seo />
       <>
-        <header>
-          <Hero
-            random={randomPhotoData}
-            download={downloadData}
-            blurHash={blurHash}
-          />
-        </header>
+        <Hero
+          random={randomPhotoData}
+          download={downloadData}
+          blurHash={blurHash}
+        />
+
         <main className="mx-auto">
           <About />
           <Projects />

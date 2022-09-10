@@ -1,4 +1,4 @@
-import Image  from "next/image";
+import Image from "next/image";
 import React from "react";
 import { GitHub, Share } from "react-feather";
 
@@ -38,7 +38,7 @@ export const Project = ({
           <p className="text-gray-200 mb-2 text-sm font-bold">{stack}</p>
           <div className="flex justify-center items-center">
             <a
-              aria-label="Source"
+              aria-label={`Project-Source-${title}`}
               className="mr-2"
               href={github}
               target="_blank"
@@ -47,7 +47,7 @@ export const Project = ({
               <GitHub color="#fff" size={22} />
             </a>
             <a
-              aria-label="Link-Demo"
+              aria-label={`Link-Demo-${title}`}
               href={demo}
               target="_blank"
               rel="noreferrer"

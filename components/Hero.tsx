@@ -34,7 +34,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
         target="_blank"
         rel="noreferrer"
       >
-        <div className="opacity-50 h-screen max-h-screen min-w-full">
+        <div className="opacity-40 h-screen max-h-screen min-w-full">
           {blurUrl && (
             <Image
               src={random?.urls.raw}

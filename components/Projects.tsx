@@ -25,6 +25,15 @@ export const Projects = () => {
       />
 
       <Project
+        title="Apagon Puerto Rico"
+        description="Web app to visualize data regarding LUMA outages in Puerto Rico"
+        github={`${BASE_GITUB}/luma-outages-puerto-rico`}
+        demo="https://www.apagonpuertorico.com/"
+        imgSrc="/apagon.png"
+        stack="Next.js, React, TypeScript, Tailwind"
+      />
+
+      <Project
         title="Playspace v2"
         description="A web app for visualizing video game data"
         github={`${BASE_GITUB}/playspace-v2`}

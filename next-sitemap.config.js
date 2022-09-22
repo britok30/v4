@@ -1,6 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: "https://www.britojs.com",
-  generateRobotsTxt: true, 
+  generateRobotsTxt: true,
+  generateIndexSitemap: false,
   // ...other options
 };

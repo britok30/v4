@@ -4,7 +4,7 @@ import Head from "next/head";
 export const Seo = () => {
   const pageTitle = "Kelvin Brito - Front-end Software Engineer";
   const pageDesc =
-    "Kelvin Brito is a front-end software engineer specializing in building & designing exceptional, high-quality websites and applications.";
+    "Kelvin Brito is a front-end software engineer specializing in building & designing exceptional, high-quality websites and applications. This is Kelvin Brito's engineering portfolio, which details all of his personal front-end projects, GitHub, and contact information.";
   const canonicalUrl = "https://britojs.com";
   const twitterHandle = "@britoszn";
 
@@ -12,7 +12,7 @@ export const Seo = () => {
     <Head>
       <title>{pageTitle}</title>
       <link rel="icon" href="/favicon.ico" />
-      <meta charSet="utf-8" />
+      <meta httpEquiv="Content-Type" content="text/html" charSet="utf-8" />
       <meta content="Kelvin Brito" name="author" />
       <meta name="theme-color" content="#000000" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

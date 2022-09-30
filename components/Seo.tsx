@@ -2,10 +2,10 @@ import React from "react";
 import Head from "next/head";
 
 export const Seo = () => {
-  const pageTitle = "Kelvin Brito - Front-end Software Engineer - BritoJS";
+  const pageTitle = "Kelvin Brito - Front-end Software Engineer";
   const pageDesc =
     "Kelvin Brito is a front-end software engineer specializing in building & designing exceptional, high-quality websites and applications. This is Kelvin Brito's engineering portfolio, which details all of his personal front-end projects, GitHub, and contact information.";
-  const canonicalUrl = "https://britojs.com";
+  const canonicalUrl = "https://kelvinbrito.dev/";
   const twitterHandle = "@britoszn";
 
   return (
@@ -24,10 +24,10 @@ export const Seo = () => {
       <meta property="og:title" content={pageTitle} />
       <meta property="og:description" content={pageDesc} key="ogdesc" />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.britojs.com/" key="ogurl" />
+      <meta property="og:url" content="https://www.kelvinbrito.dev/" key="ogurl" />
       <meta
         property="og:image"
-        content="https://www.britojs.com/portfolio.png"
+        content="https://www.kelvinbrito.dev/britojs.png"
       />
 
       <meta name="twitter:card" content="summary_large_image" />
@@ -41,7 +41,7 @@ export const Seo = () => {
       />
       <meta
         name="twitter:image"
-        content="https://www.britojs.com/portfolio.png"
+        content="https://www.kelvinbrito.dev/britojs.png"
       />
       <link rel="canonical" key="canonical" href={canonicalUrl} />
     </Head>

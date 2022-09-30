@@ -24,10 +24,10 @@ export const Seo = () => {
       <meta property="og:title" content={pageTitle} />
       <meta property="og:description" content={pageDesc} key="ogdesc" />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.kelvinbrito.dev/" key="ogurl" />
+      <meta property="og:url" content="https://kelvinbrito.dev/" key="ogurl" />
       <meta
         property="og:image"
-        content="https://www.kelvinbrito.dev/britojs.png"
+        content="https://kelvinbrito.dev/britojs.png"
       />
 
       <meta name="twitter:card" content="summary_large_image" />
@@ -41,7 +41,7 @@ export const Seo = () => {
       />
       <meta
         name="twitter:image"
-        content="https://www.kelvinbrito.dev/britojs.png"
+        content="https://kelvinbrito.dev/britojs.png"
       />
       <link rel="canonical" key="canonical" href={canonicalUrl} />
     </Head>

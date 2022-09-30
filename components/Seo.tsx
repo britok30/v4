@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 export const Seo = () => {
-  const pageTitle = "Kelvin Brito - Front-end Software Engineer";
+  const pageTitle = "Kelvin Brito";
   const pageDesc =
     "Kelvin Brito is a front-end software engineer specializing in building & designing exceptional, high-quality websites and applications. This is Kelvin Brito's engineering portfolio, which details all of his personal front-end projects, GitHub, and contact information.";
   const canonicalUrl = "https://kelvinbrito.dev/";
@@ -25,10 +25,7 @@ export const Seo = () => {
       <meta property="og:description" content={pageDesc} key="ogdesc" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://kelvinbrito.dev/" key="ogurl" />
-      <meta
-        property="og:image"
-        content="https://kelvinbrito.dev/britojs.png"
-      />
+      <meta property="og:image" content="https://kelvinbrito.dev/britojs.png" />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={pageTitle} />

@@ -5,7 +5,9 @@ export const Projects = () => {
   const BASE_GITUB: string = "https://github.com/britok30";
   return (
     <>
-      <h2 className="heading">Some things I&apos;ve built</h2>
+      <h2 className="heading bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+        Some things I&apos;ve built
+      </h2>
       <Project
         title="Spotify Next v2"
         description="Spotify app built with Next.js and Spotify API"

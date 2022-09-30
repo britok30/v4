@@ -2,7 +2,9 @@ import React from "react";
 export const About = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <h2 className="heading">Hey there, I&apos;m Kelvin Brito! 👨🏽‍💻</h2>
+      <h2 className="heading bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+        Hey there, I&apos;m Kelvin Brito!
+      </h2>
 
       <div className="w-[18rem] md:w-[30rem]">
         <p className="paragraph mb-5">

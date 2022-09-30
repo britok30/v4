@@ -16,7 +16,7 @@ export const Explore = () => {
   ];
   return (
       <div className="flex flex-col items-center">
-          <h2 className="heading">Exploring the unknown</h2>
+          <h2 className="heading bg-gradient-to-r from-indigo-300 to-purple-400">Exploring the unknown</h2>
 
           <div className="w-[18rem] md:w-[30rem]">
               <a

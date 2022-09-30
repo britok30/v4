@@ -3,7 +3,7 @@ import React from "react";
 export const Connect = () => {
   return (
     <div>
-      <h2 className="heading">Get in touch</h2>
+      <h2 className="heading bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">Get in touch</h2>
       <ul className="flex list-none text-gray-400 justify-center items-center flex-col space-y-4 md:flex-row md:space-x-3 md:space-y-0  mt-3 font-light">
         <ListItem
           ariaLabel="Github"

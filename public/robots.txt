@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.britojs.com
+Host: https://www.kelvinbrito.dev
 
 # Sitemaps
-Sitemap: https://www.britojs.com/sitemap.xml
+Sitemap: https://www.kelvinbrito.dev/sitemap.xml

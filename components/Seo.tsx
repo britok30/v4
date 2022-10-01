@@ -4,7 +4,7 @@ import Head from "next/head";
 export const Seo = () => {
   const pageTitle = "Kelvin Brito";
   const pageDesc =
-    "Kelvin Brito is a front-end software engineer specializing in building & designing exceptional, high-quality websites and applications. This is Kelvin Brito's engineering portfolio, which details all of his personal front-end projects, GitHub, and contact information.";
+    "Kelvin Brito is a frontend engineer specializing in building & designing exceptional, high-quality websites and applications. This is Kelvin Brito's engineering portfolio, which details all of his personal front-end projects, GitHub, and contact information.";
   const canonicalUrl = "https://kelvinbrito.dev/";
   const twitterHandle = "@britoszn";
 
@@ -19,7 +19,7 @@ export const Seo = () => {
       <meta name="description" content={pageDesc} key="desc" />
       <meta
         name="keywords"
-        content="kelvin brito, britojs, personal website, front-end, engineer, portfolio, software, react, typescript, javascript, js, web development, html, css"
+        content="kelvin brito, britojs, personal website, front-end, frontend engineer, portfolio, software, react, typescript, javascript, js, web development, html, css"
       />
       <meta property="og:title" content={pageTitle} />
       <meta property="og:description" content={pageDesc} key="ogdesc" />

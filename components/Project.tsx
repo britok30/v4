@@ -46,14 +46,16 @@ export const Project = ({
             >
               <GitHub color="#fff" size={22} />
             </a>
-            <a
-              aria-label={`Link-Demo-${title}`}
-              href={demo}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Share color="#fff" size={22} />
-            </a>
+            {demo && (
+              <a
+                aria-label={`Link-Demo-${title}`}
+                href={demo}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Share color="#fff" size={22} />
+              </a>
+            )}
           </div>
         </div>
       </div>

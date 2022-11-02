@@ -67,6 +67,7 @@ export const Projects = () => {
         description="Web app that helps users create blog content via the generation of blog topics, headlines, outlines, and professionally written blog posts. Using OpenAI's GPT-3"
         github={`${BASE_GITUB}/blognlp`}
         imgSrc="/blognlp.png"
+        demo="https://blognlp.com"
         stack="Next.js, TypeScript, TailwindCSS, OpenAI GPT-3"
       />
 

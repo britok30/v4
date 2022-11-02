@@ -63,12 +63,11 @@ export const Projects = () => {
       />
 
       <Project
-        title="Horizon"
-        description="Search engine web app featuring Google Search API"
-        github={`${BASE_GITUB}/horizon-search`}
-        demo="https://horizonsearch.netlify.app/"
-        imgSrc="/horizon.png"
-        stack="React, Google Search API, Tailwind"
+        title="BlogNLP"
+        description="Web app that helps users create blog content via the generation of blog topics, headlines, outlines, and professionally written blog posts. Using OpenAI's GPT-3"
+        github={`${BASE_GITUB}/blognlp`}
+        imgSrc="/blognlp.png"
+        stack="Next.js, TypeScript, TailwindCSS"
       />
 
       <Project

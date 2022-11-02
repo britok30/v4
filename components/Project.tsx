@@ -6,7 +6,7 @@ interface ProjectProps {
   title: string;
   description: string;
   github: string;
-  demo: string;
+  demo?: string;
   imgSrc: string;
   stack: string;
 }

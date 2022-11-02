@@ -68,7 +68,7 @@ export const Projects = () => {
         github={`${BASE_GITUB}/blognlp`}
         imgSrc="/blognlp.png"
         demo="https://blognlp.com"
-        stack="Next.js, TypeScript, TailwindCSS, OpenAI GPT-3"
+        stack="Next.js, TypeScript, TailwindCSS, OpenAI's GPT-3"
       />
 
       <Project

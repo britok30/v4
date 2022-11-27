@@ -93,7 +93,7 @@ export const Projects = () => {
         title="Color Picker"
         description="Color picker with useful color conversions"
         github={`${BASE_GITUB}/color-picker`}
-        demo="https://colorhuepicker.com/"
+        demo="https://color-picker-lyart.vercel.app/"
         imgSrc="/color.png"
         stack="Next.js, React, TypeScript, Tailwind"
       />

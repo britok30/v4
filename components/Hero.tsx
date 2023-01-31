@@ -37,12 +37,13 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
         <div className="opacity-40 h-screen max-h-screen min-w-full">
           {blurUrl && (
             <Image
-              src={random?.urls.raw}
+              src={random?.urls.full}
               alt={random?.alt_description || "hero-img"}
               layout="fill"
               objectFit="cover"
               placeholder="blur"
               blurDataURL={blurUrl}
+              priority={true}
             />
           )}
         </div>
@@ -53,10 +54,6 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
           transform: "translate(-50%,-50%)",
         }}
       >
-        {/* <h1 className="text-5xl lg:text-8xl tracking-wide font-light text-center mb-3">
-          Brito
-        </h1> */}
-
         <h1 className="text-5xl lg:text-8xl tracking-wide font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
           Brito
         </h1>

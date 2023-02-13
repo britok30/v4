@@ -4,15 +4,17 @@ export const Skills = () => {
   const skills = [
     "HTML",
     "CSS/Sass",
+    "CSS-in-JS",
+    "Tailwind",
     "JavaScript (ES6+)",
     "TypeScript",
-    "Tailwind",
     "React",
-    "Redux",
-    "Jest",
     "Next.js",
-    "CSS-in-JS",
     "Vue",
+    "Nuxt",
+    "Redux",
+    "Recoil",
+    "Jest",
     "Git/Github",
     "Agile & SCRUM",
     "REST APIs",
@@ -22,7 +24,9 @@ export const Skills = () => {
 
   return (
     <div>
-      <h2 className="heading bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400">Technical Skills</h2>
+      <h2 className="heading bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400">
+        Technical Skills
+      </h2>
       <div className="md:w-[400px] grid grid-cols-1 md:grid-cols-3 gap-2 mx-auto justify-items-center">
         {skills.map((skill, index) => (
           <span

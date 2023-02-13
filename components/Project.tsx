@@ -22,15 +22,17 @@ export const Project = ({
   return (
     <div>
       <div className="flex justify-center items-center flex-col md:flex-row md:items-start mb-12">
-        <Image
-          className="w-72 rounded-lg"
-          src={imgSrc}
-          alt={`project-${title}-img`}
-          layout="fixed"
-          objectFit="cover"
-          width={288}
-          height={180}
-        />
+        <div className="relative w-72">
+          <Image
+            className="rounded-l"
+            src={imgSrc}
+            alt={`project-${title}-img`}
+            layout="fixed"
+            objectFit="cover"
+            width={288}
+            height={180}
+          />
+        </div>
 
         <div className="flex justify-between items-start flex-col w-64 mt-10 md:ml-10 md:mt-0 antialiased">
           <h2 className="text-2xl text-white mb-2 ">{title}</h2>

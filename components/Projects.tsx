@@ -18,6 +18,15 @@ export const Projects = () => {
       />
 
       <Project
+        title="ArchitectGPT"
+        description="Web app that let's you transform your home using AI"
+        github={`${BASE_GITUB}/architectgpt`}
+        imgSrc="/architectgpt.png"
+        demo="https://www.architectgpt.io"
+        stack="Next.js, TypeScript, TailwindCSS, ControlNet, Firebase, Stripe"
+      />
+
+      <Project
         title="Njs"
         description="Netflix app built with Next.js and TMDB API"
         github={`${BASE_GITUB}/britok30/njs`}
@@ -68,7 +77,7 @@ export const Projects = () => {
         github={`${BASE_GITUB}/blognlp`}
         imgSrc="/blognlp.png"
         demo="https://blognlp.com"
-        stack="Next.js, TypeScript, TailwindCSS, OpenAI's GPT-3"
+        stack="Next.js, TypeScript, TailwindCSS, Firebase, Stripe, OpenAI's GPT-3"
       />
 
       <Project

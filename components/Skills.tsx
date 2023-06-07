@@ -14,6 +14,8 @@ export const Skills = () => {
     "Nuxt",
     "Redux",
     "Recoil",
+    "Firebase",
+    "Node.js",
     "Jest",
     "Git/Github",
     "Agile & SCRUM",

@@ -37,7 +37,7 @@ const Hero = ({ random, download, blurHash }: HeroProps) => {
         <div className="opacity-40 h-screen max-h-screen min-w-full">
           {blurUrl && (
             <Image
-              src={random?.urls.full}
+              src={random?.urls.raw}
               alt={random?.alt_description || "hero-img"}
               layout="fill"
               objectFit="cover"

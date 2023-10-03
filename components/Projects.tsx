@@ -17,14 +17,14 @@ export const Projects = () => {
         stack="Next.js, React, TypeScript, Tailwind, Recoil, Spotify API"
       />
 
-      <Project
+      {/* <Project
         title="ArchitectGPT"
         description="Web app that let's you transform your home using AI"
         github={`${BASE_GITUB}/architectgpt`}
         imgSrc="/architectgpt.png"
         demo="https://www.architectgpt.io"
         stack="Next.js, TypeScript, TailwindCSS, ControlNet, Firebase, Stripe"
-      />
+      /> */}
 
       <Project
         title="Njs"

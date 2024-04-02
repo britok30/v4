@@ -3,6 +3,7 @@ import ProjectLink from "./components/ProjectLink";
 import axios from "axios";
 import { Random } from "../../types";
 import UnsplashImg from "./components/UnsplashImg";
+import { ArrowUpRight } from "react-feather";
 
 async function getUnsplashPhoto() {
   const topics = {
@@ -190,30 +191,53 @@ export default async function Home() {
         <div>
           <h2 className="text-lg font-light text-[#a0a0a0] mb-2">Connect</h2>
           <div className="flex space-x-3">
-            <a
-              href="mailto:britok30@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Gmail
-            </a>
-            <a
-              href="https://www.linkedin.com/in/kelvin-brito"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Linkedin
-            </a>
-            <a
-              href="https://www.github.com/britok30"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github
-            </a>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-              Resume
-            </a>
+            <div className="flex items-center space-x-1 cursor-pointer text-sm">
+              <a
+                className="underline underline-offset-2"
+                href="mailto:britok30@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gmail
+              </a>
+              <ArrowUpRight size={18} strokeWidth={1} />
+            </div>
+
+            <div className="flex items-center space-x-1 cursor-pointer text-sm">
+              <a
+                className="underline underline-offset-2"
+                href="https://www.linkedin.com/in/kelvin-brito"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+              <ArrowUpRight size={18} strokeWidth={1} />
+            </div>
+
+            <div className="flex items-center space-x-1 cursor-pointer text-sm">
+              <a
+                className="underline underline-offset-2"
+                href="https://www.github.com/britok30"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <ArrowUpRight size={18} strokeWidth={1} />
+            </div>
+
+            <div className="flex items-center space-x-1 cursor-pointer text-sm">
+              <a
+                className="underline underline-offset-2"
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+              <ArrowUpRight size={18} strokeWidth={1} />
+            </div>
           </div>
         </div>
       </div>

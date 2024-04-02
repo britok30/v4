@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title: "Kelvin Brito",
   description:
     "Front-end engineer. Crafting beautiful web experiences & thriving on the intersection of tech & art/design",
-  metadataBase: new URL("https://www.kelvinbrito.dev"),
+  metadataBase: new URL("https://www.kelvinbrito.io"),
   openGraph: {
     title: "Kelvin Brito",
     description:
       "Front-end engineer. Crafting beautiful web experiences & thriving on the intersection of tech & art/design",
-    url: "https://www.kelvinbrito.dev",
+    url: "https://www.kelvinbrito.io",
     siteName: "Kelvin Brito",
     images: ["/logo.png"],
     locale: "en_US",

@@ -113,12 +113,12 @@ export default async function Home() {
             />
             <ProjectLink
               title="Next Spotify"
-              url="https://www.kelvinbrito.dev/spotifyDemo.mp4"
+              url="https://www.kelvinbrito.io/spotifyDemo.mp4"
               description="Spotify app built with Nextjs and Spotify API"
             />
             <ProjectLink
               title="Apple React"
-              url="https://www.kelvinbrito.dev/react-apple.mp4"
+              url="https://www.kelvinbrito.io/react-apple.mp4"
               description="Spotify app built with Nextjs and Spotify API"
             />
             <ProjectLink

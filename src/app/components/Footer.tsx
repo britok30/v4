@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 
 export const Footer = () => {
   return (
-    <div className="flex justify-center flex-col space-y-2 items-center text-white text-xs my-10 font-light">
+    <div className="flex justify-center flex-col space-y-2 items-center text-white text-xs mt-10 font-light p-4 md:p-10">
       <p>&copy; {new Date().getFullYear()} | Kelvin Brito</p>
       <p>
         Made with

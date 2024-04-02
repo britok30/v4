@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 
 export const Footer = () => {
   return (
-    <div className="flex justify-center flex-col space-y-2 items-center text-white text-xs mt-10 font-light p-4 md:p-10">
+    <div className="flex justify-center flex-col space-y-2 items-center text-center text-xs mt-10 font-light p-4 md:p-10">
       <p>&copy; {new Date().getFullYear()} | Kelvin Brito</p>
       <p>
         Made with
@@ -38,7 +38,9 @@ export const Footer = () => {
         >
           TailwindCSS
         </a>
-        . Inspired by{" "}
+      </p>
+      <p>
+        Inspired by{" "}
         <a
           className="underline underline-offset-2 cursor-pointer"
           href="https://paco.me/"

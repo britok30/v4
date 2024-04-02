@@ -1,4 +1,6 @@
-export default async function sitemap() {
+import { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.kelvinbrito.dev";
 
   return [

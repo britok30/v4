@@ -1,7 +1,5 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-
 export const Footer = () => {
   return (
     <div className="flex justify-center flex-col space-y-2 items-center text-center text-xs mt-10 font-light p-4 md:p-10">

@@ -37,8 +37,6 @@ export default async function Home() {
   const downloadLink = await getDownloadLink(unsplash);
   const blurhash = unsplash.blur_hash;
 
-  console.log(unsplash);
-
   return (
     <div className="w-full max-w-[700px] mx-auto min-h-screen flex flex-col items-center justify-center p-4 md:p-10">
       <div className="flex flex-col items-start space-y-3">

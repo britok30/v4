@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "Front-end engineer. Crafting beautiful web experiences & thriving on the intersection of tech & art/design",
     url: "https://www.kelvinbrito.dev",
     siteName: "Kelvin Brito",
-    images: ["/britojs.png"],
+    images: ["/logo.png"],
     locale: "en_US",
     type: "website",
   },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       "Front-end engineer. Crafting beautiful web experiences & thriving on the intersection of tech & art/design",
     creator: "@britoszn",
     site: "@britoszn",
-    images: ["/britojs.png"],
+    images: ["/logo.png"],
   },
 };
 

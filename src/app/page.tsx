@@ -11,25 +11,32 @@ async function getUnsplashPhoto() {
     wallpapers: "bo8jQKTaE0Y",
   };
 
-  const res = await axios.get(
-    `https://api.unsplash.com/photos/random?client_id=${process.env.NEXT_PUBLIC_API_KEY}`,
+  const res = await fetch(
+    `https://api.unsplash.com/photos/random?client_id=${process.env.NEXT_PUBLIC_API_KEY}&content_filter=high&topics=${topics.nature},${topics.architecture},${topics.wallpapers}`,
     {
-      params: {
-        content_filter: "high",
-        topics: `${topics.nature},${topics.architecture},${topics.wallpapers}`,
+      next: {
+        revalidate: 3600,
       },
     }
   );
 
-  return res.data;
+  if (!res.ok) {
+    throw new Error("Failed to fetch data");
+  }
+
+  return res.json();
 }
 
 async function getDownloadLink(randomPhotoData: Random) {
-  const res = await axios.get(
+  const res = await fetch(
     `${randomPhotoData.links.download_location}&client_id=${process.env.NEXT_PUBLIC_API_KEY}`
   );
 
-  return res.data;
+  if (!res.ok) {
+    throw new Error("Failed to fetch data");
+  }
+
+  return res.json();
 }
 
 export default async function Home() {

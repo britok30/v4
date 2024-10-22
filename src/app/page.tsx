@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectLink from "./components/ProjectLink";
-import axios from "axios";
 import { Random } from "../../types";
 import UnsplashImg from "./components/UnsplashImg";
 import { ArrowUpRight } from "react-feather";
@@ -71,10 +70,9 @@ export default async function Home() {
             traveling, hiking, and painting.
           </p>
         </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          <div>
-            <h2 className="text-lg font-light text-[#a0a0a0] mb-2">Projects</h2>
+        <section id="projects">
+          <h2 className="text-lg font-light text-[#a0a0a0] mb-2">Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <ProjectLink
               title="ArchitectGPT"
               url="https://www.architectgpt.io"
@@ -135,32 +133,32 @@ export default async function Home() {
               description="A simple color picker app using Nextjs, React Colorful, & Colord"
             />
           </div>
+        </section>
 
-          <div className="flex flex-col">
-            <h2 className="text-lg font-light text-[#a0a0a0] mb-2">
-              Photography
-            </h2>
-            <ProjectLink
-              title="My Photo Blog"
-              url="https://www.kelbrxto.com"
-              description={
-                <>
-                  Original project by{" "}
-                  <a
-                    className="text-white underline underline-offset-2"
-                    href="https://sambecker.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Sam Becker
-                  </a>
-                </>
-              }
-            />
-          </div>
-        </div>
+        <section id="photography">
+          <h2 className="text-lg font-light text-[#a0a0a0] mb-2">
+            Photography
+          </h2>
+          <ProjectLink
+            title="My Photo Blog"
+            url="https://www.kelbrxto.com"
+            description={
+              <>
+                Original project by{" "}
+                <a
+                  className="text-white underline underline-offset-2"
+                  href="https://sambecker.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Sam Becker
+                </a>
+              </>
+            }
+          />
+        </section>
 
-        <div>
+        <section id="skills">
           <h2 className="text-lg font-light text-[#a0a0a0] mb-2">Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             <div className="flex flex-col space-y-2 text-sm">
@@ -174,7 +172,7 @@ export default async function Home() {
               <h3>Libraries & Frameworks</h3>
               <p className="text-sm text-[#a0a0a0]">
                 React, Nextjs, Vue, Nuxtjs, NodeJS/Express, TailwindCSS, Styled
-                Components, Framer Motion, Jest
+                Components, Framer Motion, shadcn, Jest
               </p>
             </div>
 
@@ -186,9 +184,9 @@ export default async function Home() {
               </p>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div>
+        <section id="contact">
           <h2 className="text-lg font-light text-[#a0a0a0] mb-2">Connect</h2>
           <div className="flex space-x-3">
             <div className="flex items-center space-x-1 cursor-pointer text-sm">
@@ -239,7 +237,7 @@ export default async function Home() {
               <ArrowUpRight size={18} strokeWidth={1} />
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   );

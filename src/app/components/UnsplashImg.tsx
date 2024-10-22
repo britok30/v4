@@ -35,7 +35,7 @@ const UnsplashImg = ({
         {blurUrl && (
           <Image
             className="object-cover object-center rounded-lg"
-            src={photo?.urls.full}
+            src={photo?.urls.regular}
             alt={photo?.alt_description || "main-page-img"}
             fill
             placeholder="blur"

@@ -108,6 +108,11 @@ export default async function Home() {
               Firebase, Stripe, OpenAI"
             />
             <ProjectLink
+              title="PDFChatto"
+              url="https://www.pdfchatto.com/en"
+              description="PDF Chat using Nextjs, AWS S3, NeonDB, DrizzleORM, Stripe, Next-Intl"
+            />
+            <ProjectLink
               title="Njs"
               url="https://njs-five.vercel.app/"
               description="Netflix clone using Nextjs, Recoil, & TypeScript"

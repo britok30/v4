@@ -58,7 +58,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${gtWalsheim.className} bg-[#1a1a1a] text-white`}>
+      <body className={`${gtWalsheim.className} bg-[#1a1a1a] text-white scrollbar scrollbar-thumb-zinc-700 scrollbar-track-[#1a1a1a]`}>
         <GoogleScripts />
         <Analytics />
         {children}

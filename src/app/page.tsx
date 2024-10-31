@@ -55,19 +55,24 @@ export default async function Home() {
         <h1 className="text-2xl">Brito</h1>
         <div className="flex flex-col space-y-2 text-sm font-light">
           <p>
-            A front-end software engineer specializing in building & designing
-            exceptional, high-quality websites and applications. As I continue
-            this life-long journey of self-learning and mastering my craft, I
-            hope to be shaped by the challenges and experiences coming my way
+            As a front-end software engineer, I&apos;m dedicated to creating
+            beautifully crafted, high-quality websites and applications. My work
+            is fueled by a blend of technical expertise and artistic creativity,
+            which I bring to every project as I continue this lifelong journey
+            of learning and growth. I’m excited by the challenges that come my
+            way and eager to evolve through each experience they bring.
           </p>
           <p>
-            I am passionate in combining my technical knowledge and artistic
-            creativity to build beautiful UIs, and continue expanding my
-            knowledge in all things front-end.
+            What drives me is a passion for translating complex ideas into
+            seamless, visually engaging user interfaces. I&apos;m always
+            exploring new front-end innovations to elevate my skills and enhance
+            the digital experiences I create.
           </p>
           <p>
-            In my free time, I enjoy photography, reading books, bike trails,
-            traveling, hiking, and painting.
+            Outside of code, you’ll often find me with a camera in hand, diving
+            into a good book, or exploring the world on bike trails, hikes, or
+            new adventures. I find inspiration in the world around me, whether
+            through travel, art, or a quiet moment painting.
           </p>
         </div>
         <section id="projects">

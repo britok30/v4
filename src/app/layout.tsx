@@ -57,8 +57,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${gtWalsheim.className} bg-[#1a1a1a] text-white scrollbar scrollbar-thumb-zinc-700 scrollbar-track-[#1a1a1a]`}>
+    <html className="scrollbar scrollbar-thumb-zinc-700 scrollbar-track-[#1a1a1a]" lang="en">
+      <body className={`${gtWalsheim.className} bg-[#1a1a1a] text-white`}>
         <GoogleScripts />
         <Analytics />
         {children}

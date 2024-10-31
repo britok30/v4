@@ -114,8 +114,8 @@ export default async function Home() {
             />
             <ProjectLink
               title="MimemoAI"
-              url="https://www.mimemoai.ai/en"
-              description="AI Transcription app using Next.js, AWS S3, AWS S3, NeonDB, DrizzleORM, Stripe, Next-Intl,& Replicate"
+              url="https://www.mimemo.ai/en"
+              description="AI Transcription app using Next.js, AWS S3, AWS S3, NeonDB, DrizzleORM, Stripe, Next-Intl, & Replicate"
             />
             <ProjectLink
               title="PDFChatto"

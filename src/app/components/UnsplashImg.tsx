@@ -30,11 +30,11 @@ const UnsplashImg = ({
   }, [blurHash]);
 
   return (
-    <div className="relative w-full">
-      <div className="opacity-40 w-full h-[300px] relative">
+    <div className="relative w-full mb-3">
+      <div className="opacity-50 w-full h-[300px] relative">
         {blurUrl && (
           <Image
-            className="object-cover object-center rounded-lg"
+            className="object-cover object-center rounded-lg border border-zinc-700"
             src={photo?.urls.regular}
             alt={photo?.alt_description || "main-page-img"}
             fill

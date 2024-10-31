@@ -52,7 +52,7 @@ export default async function Home() {
           blurHash={blurhash}
           download={downloadLink}
         />
-        <h1 className="text-2xl">Brito</h1>
+        <h1 className="text-4xl">Brito</h1>
         <div className="flex flex-col space-y-2 text-sm font-light">
           <p>
             As a front-end software engineer, I&apos;m dedicated to creating
@@ -113,15 +113,20 @@ export default async function Home() {
               Firebase, Stripe, OpenAI"
             />
             <ProjectLink
+              title="MimemoAI"
+              url="https://www.mimemoai.ai/en"
+              description="AI Transcription app using Next.js, AWS S3, AWS S3, NeonDB, DrizzleORM, Stripe, Next-Intl,& Replicate"
+            />
+            <ProjectLink
               title="PDFChatto"
               url="https://www.pdfchatto.com/en"
               description="PDF Chat using Nextjs, AWS S3, NeonDB, DrizzleORM, Stripe, Next-Intl"
             />
-            <ProjectLink
+            {/* <ProjectLink
               title="Njs"
               url="https://njs-five.vercel.app/"
               description="Netflix clone using Nextjs, Recoil, & TypeScript"
-            />
+            /> */}
             <ProjectLink
               title="Apagon Puerto Rico"
               url="https://www.apagonpuertorico.com/"

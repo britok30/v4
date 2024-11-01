@@ -133,15 +133,20 @@ export default async function Home() {
               description="Web app to visualize data regarding LUMA outages in Puerto Rico"
             />
             <ProjectLink
+              title="YachtMondo"
+              url="https://www.yachtmondo.com/"
+              description="Yacht marketplace using Nextjs, TypeScript, Tailwind, NeonDB, DrizzleORM, Stripe"
+            />
+            <ProjectLink
               title="Next Spotify"
               url="https://www.kelvinbrito.io/spotifyDemo.mp4"
               description="Spotify app built with Nextjs and Spotify API"
             />
-            <ProjectLink
+            {/* <ProjectLink
               title="Apple React"
               url="https://www.kelvinbrito.io/react-apple.mp4"
               description="Spotify app built with Nextjs and Spotify API"
-            />
+            /> */}
             <ProjectLink
               title="Color Picker"
               url="https://color-picker-lyart.vercel.app/"
